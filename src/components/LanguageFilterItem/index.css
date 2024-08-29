@@ -1,0 +1,32 @@
+.header-text {
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  padding: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.active {
+  border-color: #0284c7;
+  color: #0284c7;
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  padding: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.language-container {
+  list-style: none;
+  display: flex;
+  column-gap: 40px;
+  width: fit-content;
+}
